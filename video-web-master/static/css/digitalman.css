@@ -1,0 +1,75 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 背景图铺满整个页面 */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://pic1.imgdb.cn/item/67dfbb0488c538a9b5c50c2e.png') no-repeat center center/cover;
+}
+
+/* GIF容器 - 居中 */
+.gif-container {
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.gif-container img {
+    width: 100%;
+    display: block;
+}
+
+/* 右侧模态框 */
+.modal {
+    position: absolute;
+    right: 3%;
+    top: 42%;
+    transform: translateY(-50%);
+    width: 180px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 按钮样式 */
+.gif-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* 头像样式 - 圆角 */
+.gif-button img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* 按钮之间的细线 */
+.divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 5px 0;
+}
