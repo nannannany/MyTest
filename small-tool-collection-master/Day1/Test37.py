@@ -1,0 +1,10 @@
+import tkinter
+top=tkinter.Tk()
+top.title('python GUI')
+but1=tkinter.Button(top,text='input',font=('Arial',16,'italic','bold'),fg='Black',relief='ridge',state='normal')
+but1.pack(padx=10,pady=10)
+but2=tkinter.Button(top,text='output',font=('Arial',16,'italic','bold'),fg='Black',relief='ridge',state='active')
+but2.pack(padx=10,pady=10)
+but3=tkinter.Button(top,text='return',font=('Arial',16,'italic','bold'),fg='Black',relief='ridge', state='disabled')
+but3.pack(padx=10,pady=10)
+top.mainloop()

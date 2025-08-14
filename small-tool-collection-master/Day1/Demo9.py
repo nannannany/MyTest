@@ -1,0 +1,11 @@
+import tkinter
+top=tkinter.Tk()
+comm1=tkinter.Button(top,text='Top')
+comm1.pack(side='top',pady=10)
+comm2=tkinter.Button(top,text='Bottom')
+comm2.pack(side='top',pady=10)
+comm3=tkinter.Button(top,text='Left')
+comm3.pack(side='top',pady=10)
+comm4=tkinter.Button(top,text='Right')
+comm4.pack(side='top',pady=10)
+top.mainloop()
